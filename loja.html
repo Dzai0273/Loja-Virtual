@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ransmilly e Higor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="bg-primary text-white text-center py-2">
+        Bem-vindo à Ransmilly e Higor CHemics!
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ransmilly e Higor CHemics</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#categorias" data-bs-toggle="dropdown">Categorias</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#categorias">Elementos químicos</a></li>
+                            <li><a class="dropdown-item" href="#destaques">Destaques</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destaques">Ofertas</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar produtos">
+                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                </form>
+
+                <a href="#destaques" class="btn btn-primary ms-lg-2 mt-2 mt-lg-0">Carrinho</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" id="inicio">
+
+        <div id="carrossel" class="carousel slide mt-3" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carrossel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carrossel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carrossel" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="bg-primary text-white text-center p-5">
+                        <h1>Explore a química</h1>
+                        <p>Conheça os elementos da tabela periódica.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="bg-dark text-white text-center p-5">
+                        <h1>Elementos em destaque</h1>
+                        <p>Descubra curiosidades sobre os elementos químicos.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="bg-secondary text-white text-center p-5">
+                        <h1>Conhecimento e descoberta</h1>
+                        <p>O mundo da química está aqui.</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrossel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carrossel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <h2 class="mt-4" id="categorias">Categorias</h2>
+
+        <div class="row g-3">
+            <div class="col-4 col-lg-2">
+                <div class="card text-center p-2 h-100">
+                    <img src="https://escolaeducacao.com.br/wp-content/uploads/2018/12/tabela-periodica-ouro.jpg" class="img-fluid" alt="Quadrinho do ouro na tabela periódica">
+                    <p class="mb-0 mt-2">Ouro</p>
+                </div>
+            </div>
+
+            <div class="col-4 col-lg-2">
+                <div class="card text-center p-2 h-100">
+                    <img src="ferro.jpg" class="img-fluid" alt="Quadrinho do ferro na tabela periódica">
+                    <p class="mb-0 mt-2">Ferro</p>
+                </div>
+            </div>
+
+            <div class="col-4 col-lg-2">
+                <div class="card text-center p-2 h-100">
+                    <img src="uranio.png" class="img-fluid" alt="Quadrinho do urânio na tabela periódica">
+                    <p class="mb-0 mt-2">Urânio</p>
+                </div>
+            </div>
+
+            <div class="col-4 col-lg-2">
+                <div class="card text-center p-2 h-100">
+                    <img src="cesio.png" class="img-fluid" alt="Quadrinho do césio na tabela periódica">
+                    <p class="mb-0 mt-2">Césio</p>
+                </div>
+            </div>
+
+            <div class="col-4 col-lg-2">
+                <div class="card text-center p-2 h-100">
+                    <img src="helio.png" class="img-fluid" alt="Quadrinho do hélio na tabela periódica">
+                    <p class="mb-0 mt-2">Hélio</p>
+                </div>
+            </div>
+
+            <div class="col-4 col-lg-2">
+                <div class="card text-center p-2 h-100">
+                    <img src="carbono.jpg" class="img-fluid" alt="Quadrinho do carbono na tabela periódica">
+                    <p class="mb-0 mt-2">Carbono</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-4" id="destaques">Destaques</h2>
+
+        <div class="row g-3">
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100">
+                    <span class="badge text-bg-danger position-absolute m-2">Promoção</span>
+                    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Metallic_Uranium.jpg" class="card-img-top" alt="Amostra de urânio metálico">
+                    <div class="card-body">
+                        <h5 class="card-title">Urânio</h5>
+                        <p class="card-text">
+                            <span class="text-muted text-decoration-line-through">R$ 120,00</span>
+                            <strong class="text-danger">R$ 89,90</strong>
+                        </p>
+                        <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#produto1">Ver detalhes</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100">
+                    <span class="badge text-bg-danger position-absolute m-2">Promoção</span>
+                    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Plutonium_pellet.jpg" class="card-img-top" alt="Pastilha de dióxido de plutônio">
+                    <div class="card-body">
+                        <h5 class="card-title">Plutônio</h5>
+                        <p class="card-text">
+                            <span class="text-muted text-decoration-line-through">R$ 150,00</span>
+                            <strong class="text-danger">R$ 119,90</strong>
+                        </p>
+                        <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#produto2">Ver detalhes</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100">
+                    <span class="badge text-bg-danger position-absolute m-2">Promoção</span>
+                    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cesium.jpg" class="card-img-top" alt="Amostra de césio metálico">
+                    <div class="card-body">
+                        <h5 class="card-title">Césio</h5>
+                        <p class="card-text">
+                            <span class="text-muted text-decoration-line-through">R$ 95,00</span>
+                            <strong class="text-danger">R$ 74,90</strong>
+                        </p>
+                        <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#produto3">Ver detalhes</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100">
+                    <span class="badge text-bg-danger position-absolute m-2">Promoção</span>
+                    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Iron_electrolytic_and_1cm3_cube.jpg" class="card-img-top" alt="Amostra de ferro metálico">
+                    <div class="card-body">
+                        <h5 class="card-title">Ferro</h5>
+                        <p class="card-text">
+                            <span class="text-muted text-decoration-line-through">R$ 65,00</span>
+                            <strong class="text-danger">R$ 49,90</strong>
+                        </p>
+                        <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#produto4">Ver detalhes</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row g-3 mt-3">
+            <div class="col-md-6">
+                <div class="bg-primary text-white text-center p-4">
+                    <h3>Conheça os elementos</h3>
+                    <p>Explore a tabela periódica.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="bg-dark text-white text-center p-4">
+                    <h3>Química em destaque</h3>
+                    <p>Descubra mais sobre cada elemento.</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-4">Benefícios</h2>
+
+        <div class="row g-3">
+            <div class="col-md-4">
+                <div class="card text-center p-3 h-100">
+                    <h5>Conhecimento</h5>
+                    <p class="mb-0">Aprenda sobre os elementos químicos.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center p-3 h-100">
+                    <h5>Descoberta</h5>
+                    <p class="mb-0">Conheça as características dos elementos.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center p-3 h-100">
+                    <h5>Curiosidades</h5>
+                    <p class="mb-0">Explore o mundo da química.</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-4">Receba nossas novidades</h2>
+
+        <div class="input-group mb-4">
+            <input type="email" class="form-control" placeholder="Digite seu e-mail">
+            <button class="btn btn-primary" type="button">Assinar</button>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="produto1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Urânio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    O urânio é um elemento químico de número atômico 92 e símbolo U.
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="produto2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Plutônio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    O plutônio é um elemento químico radioativo de número atômico 94 e símbolo Pu. A imagem mostra uma pastilha de dióxido de plutônio-238, ESSENCIAL PARA VIAGENS NO TEMPO
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="produto3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Césio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    O césio é um elemento químico de número atômico 55 e símbolo Cs.
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="produto4" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Ferro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    O ferro é um elemento químico de número atômico 26 e símbolo Fe.
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white mt-4 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Ransmilly e Higor</h5>
+                    <p>Uma loja inspirada na química.</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Links</h5>
+                    <p><a class="link-light" href="#inicio">Início</a></p>
+                    <p><a class="link-light" href="#categorias">Categorias</a></p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Produtos</h5>
+                    <p><a class="link-light" href="#destaques">Destaques</a></p>
+                    <p><a class="link-light" href="#categorias">Elementos</a></p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Contato</h5>
+                    <p>Projeto escolar de Programação Web 1.</p>
+                </div>
+            </div>
+
+            <hr>
+            <p class="text-center mb-0">© 2026 Ransmilly e Higor</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
